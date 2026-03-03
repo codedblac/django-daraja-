@@ -8,6 +8,7 @@ from django.views.decorators.csrf import csrf_exempt
 
 
 
+
 def trigger(request):
     cl = MpesaClient() # type: ignore
     phone_number = '0705201338'
